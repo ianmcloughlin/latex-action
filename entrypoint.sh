@@ -1,4 +1,4 @@
-#! /usr/bin/env sh -l
+#! /usr/bin/env sh
 
 latexmk
 git config --local user.email '"action@github.com"'
