@@ -1,4 +1,4 @@
 #! /usr/bin/env sh
 
-cd $GITHUB_WORKSPACE
+cd /github/workspace
 latexmk
