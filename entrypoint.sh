@@ -1,4 +1,4 @@
 #! /usr/bin/env sh
 
-cd $GITHUB_WORKSPACE
+cd $GITHUB_WORKSPACE/repo
 latexmk
