@@ -1,6 +1,3 @@
-# Docker image.
-FROM danteev/texlive:latest
-# Copy entrypoint.
-COPY entrypoint.sh /entrypoint.sh
-# Entry point.
-ENTRYPOINT ["/entrypoint.sh"]
+FROM ianmcloughlin/latexmk:latest
+WORKDIR $GITHUB_WORKSPACE
+ENTRYPOINT latexmk
